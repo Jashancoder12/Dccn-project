@@ -9,7 +9,7 @@ const app = express();
 app.use(cors({ origin: '*' }));
 
 // Allow large raw requests (for upload)
-app.use(express.raw({ limit: '50mb', type: '*/*' }));
+app.use(express.raw({ limit: '10mb', type: '*/*' }));
 
 // -------------------- Serve Frontend --------------------
 // Frontend folder is outside backend folder

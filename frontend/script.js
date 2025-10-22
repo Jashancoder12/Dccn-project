@@ -25,7 +25,7 @@ document.getElementById("startBtn").addEventListener("click", async () => {
     document.getElementById("download").textContent = `${downloadSpeed} Mbps`;
 
     // 📤 Upload Test
-    const uploadData = new Uint8Array(2 * 1024 * 1024); // 2 MB
+    const uploadData = new Uint8Array(1 * 1024 * 1024); // 2 MB
     const uStart = performance.now();
     await fetch(`${backendURL}/upload`, {
       method: "POST",
