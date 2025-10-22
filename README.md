@@ -1,4 +1,4 @@
-# *Dccn-project
+# **Dccn-project**
 # NetMonitor
 Net Monitor is a simple and intuitive web-based tool designed to help users monitor their internet connection in real-time. It provides insights into the network performance by measuring **Ping**, **Download Speed**, and **Upload Speed**, enabling users to quickly detect issues and understand their connection quality.
 
