@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 
 // Enable CORS for cross-origin requests
-app.use(cors());
+app.use(cors({ origin: '*' }));
 
 // Allow large raw requests (for upload)
 app.use(express.raw({ limit: '50mb', type: '*/*' }));
